@@ -142,7 +142,9 @@ nav {
   }
   
   .nav-list.active {
-    transform: translateX(0);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
     display: flex;
   }
   
